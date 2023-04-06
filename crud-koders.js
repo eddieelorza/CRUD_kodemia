@@ -29,10 +29,12 @@ const readKoders = require('./readFile');
 const addKoder = require('./addKoder');
 const deleteKoder = require('./deleteKoder');
 const twentyFiveKoders = require('./twentyFiveKoders');
+const editKoder = require('./editKoder')
 
-readKoders.readFile('koder.json');
-addKoder.addKoder(3, 'rose', 'Elorza', 26, 'Pizza');
+// readKoders.readFile('koder.json');
+ addKoder.addKoder('rose', 'Elorza', 26, 'Pizza');
 // deleteKoder.deleteKoder(4);
-twentyFiveKoders.twentyFiveKoders();
+// twentyFiveKoders.twentyFiveKoders();
+// editKoder.editKoder(3, 'Eddie', 'Elorza', 26, 'Pizza')
 
 
